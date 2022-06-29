@@ -1,0 +1,61 @@
+*{ /* bütün sayfayı etiketler ve başka tarayıcılarda çalıştırıken
+    sayfaya sığdırır kenar boşlukları olmaz.*/
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+h3{
+    display: inline-block; /*araştır içeriğin olduğu alan kadar gösterme kaplama*/
+    margin: 100px;
+    background:blueviolet;
+    color:white;
+    padding: 10px;
+    font-size: 60px;
+    font-family: arial;
+    font-weight: lighter; /* yazı kalınlığı ayarlama lighter ince bold kalın*/
+    
+   }
+p{
+    color:rgb(136, 28, 230);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold; /* yazı kalınlığı ayarlama lighter ince bold kalın*/
+    font-style: uppercase;
+}
+/* * koyulursa başa bütün sayfayı etkiler.
+
+*/
+.yaziSari{
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold; /* yazı kalınlığı ayarlama lighter ince bold kalın*/
+    font-style: uppercase;
+}
+.ul {
+    background-color: red;
+    color: yellow;
+    font-size: 30px;
+    list-style: persian;
+    font-family: sans-serif;
+    font-weight: lighter; /* yazı kalınlığı ayarlama lighter ince bold kalın*/
+  
+}
+.paragraf{
+    /*background: red ;  
+    color: white;  
+    margin: 30px;
+    display: inline-block; /* inline css kodlarını almaz. inline-block css kodlarını da alır.*/
+    
+    border: 10px solid black;
+    border-radius: 50px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+
+}

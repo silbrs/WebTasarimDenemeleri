@@ -1,0 +1,51 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.kutular{
+    width: 1348px;
+    border: 2px solid red;
+    min-height: 300px;
+    box-sizing: border-box;
+    display: flex; /*esneklik kazandırmak icin konumlamada*/
+    flex-wrap: wrap; /*icine sıgdırma boyutu genisligi bozmaz*/
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+
+
+}
+.kutu{
+    width: 300px;
+    height: 300px;
+    background: cadetblue;
+    border: 2px solid blue;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 900px){
+    .kutular{
+        width: 1348px;
+        border: 2px solid red;
+        min-height: 300px;
+        box-sizing: border-box;
+        display: flex; /*esneklik kazandırmak icin konumlamada*/
+        flex-wrap: wrap; /*icine sıgdırma boyutu genisligi bozmaz*/
+        flex-direction: row;
+        justify-content: ;
+    
+    
+    }
+    .kutu{
+        width: 300px;
+        height: 300px;
+        background: cadetblue;
+        border: 2px solid blue;
+        margin-bottom: 10px;
+    }
+    
+}
+@media screen and (max-width: 899px) and (min-width: 720px){
+
+}

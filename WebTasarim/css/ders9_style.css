@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+}	
+.tasiyici{
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background: red;
+    
+}
+.tasiyici div{
+    width:100px; 
+    height: 100px;
+    background: white;
+    float:left;
+    margin:5px;
+    border:5px solid lime;
+    padding:10px;
+    box-sizing: border-box;
+}
+.tasiyici div:nth-child(2){
+    /*Nesnenin konumunu sabit yapar. Diğer nesneler bu nesneyi artık görmezden gelir yerine geçer. position relative yerine 
+    göre konumlandırma. position absolute ise sayfayanın konumuna göre. fixed sabitleme konuma sabitleniyor. menu kullanımlarında
+    position sticky başlık atama yapar  geçiş başlığı yapmak için kullanılır. top:0a geldiğinde diğer başlığı alta alır.
+    z-index seçilen nesneyi ön plana geçirme mesela fotoğraf ayarlaması yapılırken fotoğaraf fotoğrafın üzerine geçtiğinde 
+    arkada kalan fotoğrafı ön plana geçirme işlevini gerçekleştirir. placeholder arama çubuğu transition saniye ayarlama
+    focus transform: scale(1.2) büyütme efekti*/
+    position: absolute;
+    bottom:70px;
+    right: 20px;
+}

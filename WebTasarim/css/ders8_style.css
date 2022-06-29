@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}	
+.tasiyici{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background: red;
+    
+}
+.tasiyici div{
+    width:200px; 
+    height: 200px;
+    background: white;
+    float:left;
+    margin:5px;
+    border:5px solid lime;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+/*.tasiyici div:nth-child(2){
+    //Nesne eski yerine göre yeni konum alır.Diğer nesneler bu nesnenin yerinesaygı duyar ele geçirmezler
+    position: relative;
+    top:100px;
+    left:30px;
+}
+*/
+
+/*.tasiyici div:nth-child(2){
+    //fixed pozisyonu sabit yapar sayfa aşağıya insede nesneverilen konumda kalır
+    position: fixed;
+    bottom:70px;
+    right: 20px;
+}*/
+.tasiyici div:nth-child(2){
+    /*Nesnenin konumunu sabit yapar. Diğer nesneler bu nesneyi artık görmezden gelir yerine geçer.*/
+    position: absolute;
+    bottom:70px;
+    right: 20px;
+}

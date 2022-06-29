@@ -1,0 +1,42 @@
+*{ /* bütün sayfayı etiketler ve başka tarayıcılarda çalıştırıken
+    sayfaya sığdırır kenar boşlukları olmaz.*/
+    margin: 0;
+    padding: 0;
+    color: red;
+    background-color: red;
+}
+div{
+    border: 10px solid black;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center; /* dikeyde hizalama*/
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+
+}
+span{
+    color: green;
+    font-size: 30px;
+}
+p{
+    
+    border: 10px solid black;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center; /* dikeyde hizalama*/
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: center;
+    
+
+}
